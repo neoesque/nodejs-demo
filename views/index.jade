@@ -1,0 +1,12 @@
+h1 Hello World
+p Powered by Express with CoffeeScript, jade and stylus - example by neoesque
+textarea#msg(name="article_input", cols="40", rows="12")
+br
+input#send_msg(type="button", value="送出!")
+div#article_list
+    - each article, key in articles
+        div.article_item(id= key)
+            input.modify(type="button", value="修改")
+            input.delete(type="button", value="刪除")
+            br
+            p= article

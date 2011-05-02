@@ -1,0 +1,2 @@
+This is a simple demo site using node.js with framework express, CoffeeScript, jade and Stylus.
+The site is locate in http://nodejs-hello.cloudfoundry.com which is powered by VMware Cloud Foundry.
