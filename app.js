@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -82,4 +81,3 @@ if (!module.parent) {
     app.listen(process.env.VMC_APP_PORT||3000);
     console.log("Express server listening on port %d", app.address().port);
 }
-
